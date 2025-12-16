@@ -1,0 +1,17 @@
+02/Dez./2025 13:41:29,252- MainApp: Fehler: 
+java.io.FileNotFoundException: C:\tempppp\file01.txt (Das System kann den angegebenen Pfad nicht finden)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:150) ~[?:?]
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:84) ~[?:?]
+	at ch.hslu.informatik.block11.demo01.Util.write(Util.java:11) ~[bin/:?]
+	at ch.hslu.informatik.block11.demo01.MainApp.main(MainApp.java:22) [bin/:?]
+02/Dez./2025 14:34:50,539- MainApp: Fehler beim kopieren 
+java.io.FileNotFoundException: C:\temp\wasserfal_org.jpg (Das System kann die angegebene Datei nicht finden)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at ch.hslu.informatik.block11.demo02.MainApp.copyFile(MainApp.java:37) ~[bin/:?]
+	at ch.hslu.informatik.block11.demo02.MainApp.main(MainApp.java:25) [bin/:?]
